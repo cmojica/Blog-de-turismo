@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.btn{
+	padding: 0%;
+}
+
+.row{
+	background-color: transparent;
+}
+
+#macizo{
+	margin-top: 5%;
+	padding-right: 1%;
+	width: 50%;
+}
+
+p{
+	text-align: justify;
+}
+
+#nombre,#mail{
+    border-bottom: 1px solid white;
+   }
+
+#logo{
+	width: 50%;
+	margin-top: 8%;
+	
+}
+
+
+@media all and (max-width: 900px){
+	#btn1,#btn2,#btn3,#btn4{
+		width: 20%;
+	}
+	
+	#macizo{
+	width: auto;
+	}
+	#logo{
+	width: 100%;
+	margin-top: 8%;
+	
+	}
+	
+	#p1{
+		font-family: 'Tangerine', serif;
+        font-size: 38px;
+		text-shadow: 4px 4px 4px #aaa;
+	}
+	
+	body{
+	background: url("../img/momotombo.jpg");
+	background-attachment: fixed;
+	background-size: 900px;
+	}
+	
+	#bq6,#bq7{
+		margin-top: 4%;
+	}
+
+}
+
+@media screen and (min-width: 901px){
+	#btn1,#btn2,#btn3,#btn4{
+		width: 17%;
+		font-size: 12px;
+		
+	}
+	
+	body{
+	background: url("../img/momotombo.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	}
+	
+	#p1{
+		font-family: 'Tangerine', serif;
+        font-size: 100px;
+		text-shadow: 4px 4px 4px #aaa;
+		margin-top: 5%;
+	}
+	#macizo{
+	width: auto;
+	}
+	
+	#logo{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+			
+	}	
+
+}
+
